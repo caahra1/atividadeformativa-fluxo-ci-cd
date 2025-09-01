@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Este script demonstra funcoes basicas de Python
+# Este script demonstra funcoes basicas 
 
 
 def saudacao(nome):
@@ -11,6 +11,9 @@ def somar(a, b):
 def subtrair(a, b):
     return a - b
 
+def multiplica(a, b):
+    return a * b
+
 if __name__ == "__main__":
     nomes = ["Alice", "Bob", "Charlie"]
     for nome in nomes:
@@ -21,3 +24,6 @@ if __name__ == "__main__":
 
     resultado_subtracao = subtrair(10, 4)
     print(f"A subtracao de 10 e 4 é {resultado_subtracao}")
+
+    resultado_multiplicacao = multiplica(7, 6)
+    print(f"A multiplicacao de 7 e 6 é {resultado_multiplicacao}")
