@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Este script demonstra funcoes basicas de Python
+
 
 def saudacao(nome):
     return f"Ola, {nome}!"
